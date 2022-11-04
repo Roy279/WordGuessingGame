@@ -288,8 +288,8 @@ after declaring the previous variables that are constant we declare ones that ar
 let word, maxGuesses, incorrectLetters = [], correctLetters = [];
 ```
 ## The first function
-## randomWord:
-randomWord function written like this:
+## randomWord():
+randomWord() function written like this:
 ```js
 function randomWord() {
     let ranItem = wordList[Math.floor(Math.random() * wordList.length)];
@@ -320,8 +320,8 @@ randomWord()
 ```
 After we create the function and want to see the functionality of the function,We just simply call the function like shown above.
 ## The second function
-## initGame:
-initGame function written like this:
+## initGame():
+initGame() function written like this:
 ```js
 function initGame(e) {
     let key = e.target.value.toLowerCase();
@@ -343,8 +343,8 @@ function initGame(e) {
     typingInput.value = "";
 ```
 ## The third function
-## setTimeOut:
-setTimeout function written like this:
+## setTimeOut():
+setTimeout() function written like this:
 ```js
 setTimeout(() => {
         if(correctLetters.length === word.length) {
