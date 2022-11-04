@@ -64,7 +64,8 @@ There are 3 things linked inside the html file. we have:
 The CSS File contains basically all the code we need to format how the game will look.Each element we gave it certain properties to make it the way it looks.
 
 ## Then onto the words.js file:
-``` let wordList = [
+```js 
+let wordList = [
     {
         word: "python",
         hint: "programming language"
