@@ -287,4 +287,4 @@ after declaring the previous variables that are constant we declare ones that ar
 ```js
 let word, maxGuesses, incorrectLetters = [], correctLetters = [];
 ```
-##The first function
+## The first function
