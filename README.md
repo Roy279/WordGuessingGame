@@ -267,3 +267,9 @@ let wordList = [
 This code basiaclly is the list of words & their hints.The said words are the words the user will try & guess.  
 
 ## Script.js file:
+
+This file contains all the functionality of the game and it is very important.
+
+in the file:
+We have to declare the constant variables we need to make the game run.
+
