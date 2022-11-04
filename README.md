@@ -45,12 +45,11 @@ Further Comments are put inside the code to explain what each part does.
   </body>
 </html>
 ```
-```
 This is what is in the index.html file.This mainly builds up the basis & components of our game.We have the title of the Game in an h1.Then a div with the class content is made to house our content for the game. In content we have:
-
+```
 -A Div tag with class "inputs".This will show the text of our guessing to find the answer with the given hint.
 -A Div tag with class "details". This will house the hint,guess left and wrong letters for the user to see.  
-  -The div tag has 3 p tags,one with the class "hint",second,with class "time" and third,with the class "wrong-letter".All of them will display the hint,guess left and wrong letters for the user respectively.   
-	-Input tag for the input field for the users answer  
-	-Another div tag with a button tag with class "reset-btn", will reset the current question to another for the user has to guess.  
+-The div tag has 3 p tags,one with the class "hint",second,with class "time" and third,with the class "wrong-letter".All of them will display the hint,guess left and wrong letters for the user respectively.   
+-Input tag for the input field for the users answer  
+-Another div tag with a button tag with class "reset-btn", will reset the current question to another for the user has to guess.  
 ```
