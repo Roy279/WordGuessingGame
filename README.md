@@ -282,3 +282,8 @@ resetBtn = document.querySelector(".reset-btn"),
 typingInput = document.querySelector(".typing-input");
 
 ```
+after declaring the previous variables that are constant we declare ones that arent
+
+```js
+let word, maxGuesses, incorrectLetters = [], correctLetters = [];
+```
