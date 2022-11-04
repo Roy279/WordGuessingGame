@@ -288,3 +288,4 @@ after declaring the previous variables that are constant we declare ones that ar
 let word, maxGuesses, incorrectLetters = [], correctLetters = [];
 ```
 ## The first function
+## randomWord
