@@ -314,3 +314,6 @@ function randomWord() {
 -guessLeft.innertext is for show the available guessing limit.
 -wrongLetter.innertext is for show the wrong letters that have been guess by the user.
 ```
+## The second function
+## initGame:
+initGame function written like this:
