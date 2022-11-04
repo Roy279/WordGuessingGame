@@ -1,4 +1,4 @@
-# WordScrambleGame
+# WordGuessingGame
   
 ## A simple word guessing game where the user has to guess the word by the given hint in the game.
 
@@ -264,3 +264,4 @@ let wordList = [
     },
 ]
 ```
+This code basiaclly is the list of words & their hints.The said words are the words the user will try & guess.  
