@@ -368,3 +368,6 @@ typingInput.addEventListener("input", initGame);
 inputs.addEventListener("click", () => typingInput.focus());
 document.addEventListener("keydown", () => typingInput.focus());
 ```
+```
+-resetBtn.addEventListener("click", randomWord):whenever the user click reset button it will call the randword() function's funtionality.
+```
