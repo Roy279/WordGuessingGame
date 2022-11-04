@@ -359,3 +359,12 @@ setTimeout(() => {
     }, 100);
 }
 ```
+## Last
+## addEventListener():
+addEventListener() function takes the event to listen for and a second argument to be called whenever the described event gets fired.
+```js
+resetBtn.addEventListener("click", randomWord);
+typingInput.addEventListener("input", initGame);
+inputs.addEventListener("click", () => typingInput.focus());
+document.addEventListener("keydown", () => typingInput.focus());
+```
