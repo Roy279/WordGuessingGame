@@ -307,8 +307,10 @@ function randomWord() {
     }
 }
 ```
+```
 -In the code above, ranItem is there to choose a random word inside the word.js for the user to answer. 
 -maxGuesses is there to limit the max guessing availability to the user to answer the given word.
 -hintTag.innertext is for show the hint text from the variable of ranItem.hint.
 -guessLeft.innertext is for show the available guessing limit.
 -wrongLetter.innertext is for show the wrong letters that have been guess by the user.
+```
