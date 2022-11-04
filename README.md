@@ -322,3 +322,23 @@ After we create the function and want to see the functionality of the function,W
 ## The second function
 ## initGame:
 initGame function written like this:
+```js
+function initGame(e) {
+    let key = e.target.value.toLowerCase();
+    if(key.match(/^[A-Za-z]+$/) && !incorrectLetters.includes(` ${key}`) && !correctLetters.includes(key)) {
+        if(word.includes(key)) {
+            for (let i = 0; i < word.length; i++) {
+                if(word[i] == key) {
+                    correctLetters += key;
+                    inputs.querySelectorAll("input")[i].value = key;
+                }
+            }
+        } else {
+            maxGuesses--;
+            incorrectLetters.push(` ${key}`);
+        }
+        guessLeft.innerText = maxGuesses;
+        wrongLetter.innerText = incorrectLetters;
+    }
+    typingInput.value = "";
+```
