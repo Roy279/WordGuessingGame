@@ -273,3 +273,12 @@ This file contains all the functionality of the game and it is very important.
 in the file:
 We have to declare the constant variables we need to make the game run.
 
+```js
+const inputs = document.querySelector(".inputs"),
+hintTag = document.querySelector(".hint span"),
+guessLeft = document.querySelector(".guess-left span"),
+wrongLetter = document.querySelector(".wrong-letter span"),
+resetBtn = document.querySelector(".reset-btn"),
+typingInput = document.querySelector(".typing-input");
+
+```
