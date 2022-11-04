@@ -53,3 +53,9 @@ This is what is in the index.html file.This mainly builds up the basis & compone
 -Input tag for the input field for the users answer  
 -Another div tag with a button tag with class "reset-btn", will reset the current question to another for the user has to guess.  
 ```
+There are 3 things linked inside the html file. we have:
+```
+1. A link for the CSS File style.css  
+2. A script link for words.js file  
+3. A script link for the script.js file   
+```
