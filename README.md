@@ -59,3 +59,8 @@ There are 3 things linked inside the html file. we have:
 2. A script link for words.js file  
 3. A script link for the script.js file   
 ```
+## We will start with style.css:
+
+The CSS File contains basically all the code we need to format how the game will look. and for each element we gave it certain properties to make it the way it looks.
+
+## Then onto the words.js file:
