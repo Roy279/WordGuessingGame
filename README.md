@@ -315,7 +315,7 @@ function randomWord() {
 -wrongLetter.innertext is for show the wrong letters that have been guess by the user.
 ```
 
-```
+```js
 randomWord()
 ```
 After we create the function and want to see the functionality of the function,We just simply call the function like shown above.
